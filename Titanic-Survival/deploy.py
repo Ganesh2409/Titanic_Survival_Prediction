@@ -4,9 +4,9 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from sklearn.impute import SimpleImputer 
 from sklearn.linear_model import LogisticRegression
 
-column_transformer = pickle.load(open('models/column_transformer.pkl','rb'))
-standard_scalar = pickle.load(open('models/standard_scaler.pkl', 'rb'))
-model = pickle.load(open('models/classifier.pkl','rb'))
+column_transformer = pickle.load(open('Titanic-Survival/models/classifier.pkl','rb'))
+standard_scalar = pickle.load(open('Titanic-Survival/models/standard_scaler.pkl', 'rb'))
+model = pickle.load(open('Titanic-Survival/models/classifier.pkl','rb'))
 
 st.title("Do They Survive :ship:")
 
