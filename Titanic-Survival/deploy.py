@@ -10,13 +10,13 @@ model = pickle.load(open('Titanic-Survival/models/classifier.pkl','rb'))
 
 st.title("Do They Survive :ship:")
 
-Pclass = st.select_slider("Input the Pclass of the passenger",[1,2,3,4])
-Sex = st.select_slider("Input the Sex pf the passener ",['male','female'])
-Age = st.number_input("input the Age of the passenger",0,100)
-SibSp = st.select_slider("input the SibSp",[0, 1, 2, 4, 8, 3, 5])
-Parch = st.select_slider("select the Parch ",[2, 1, 0, 5, 3, 4, 6])
-Fare = st.number_input("enter the fare they cahrged to travell in the Titanic ",0,512)
-Embarked = st.select_slider("select the Embarked location",['S','Q','C'])
+Pclass = st.select_slider("Select the Pclass of the passenger",[1,2,3,4])
+Sex = st.select_slider("Select the Sex of the passenger ",['male','female'])
+Age = st.number_input("Input the Age of the passenger",0,100)
+SibSp = st.select_slider("Select the SibSp",[0, 1, 2, 3,4,5,8])
+Parch = st.select_slider("Select the Parch ",[0,1,2, 5, 3, 4, 6])
+Fare = st.number_input("Enter the fare charged to travel in  Titanic ",0,512)
+Embarked = st.select_slider("Select the Embarked location",['S','Q','C'])
 @st.cache_data
 def predict():
      row = np.array([Pclass,Sex,Age,SibSp,Parch,Fare,Embarked]).reshape(1, 7)
