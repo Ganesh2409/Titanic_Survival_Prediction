@@ -10,9 +10,9 @@ from sklearn.linear_model import LogisticRegression
 def predict():
     st.title("Do They Survive :ship:")
 
-    column_transformer = pickle.load(open('models/column_transformer.pkl', 'rb'))
-    standard_scalar = pickle.load(open('models/standard_scaler.pkl', 'rb'))
-    model = pickle.load(open('models/classifier.pkl', 'rb'))
+    column_transformer = pickle.load(open('Titanic-Survival/models/column_transformer.pkl', 'rb'))
+    standard_scalar = pickle.load(open('Titanic-Survival/models/standard_scaler.pkl', 'rb'))
+    model = pickle.load(open('Titanic-Survival/models/classifier.pkl', 'rb'))
 
     Pclass = st.slider("Select the Pclass of passenger", 1, 4, 0, key="pclass_slider_deploy")
     Sex = st.selectbox("Select the gender of passenger", ['male', 'female'], key="sex_selectbox_deploy")
