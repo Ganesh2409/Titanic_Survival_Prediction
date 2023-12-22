@@ -16,7 +16,7 @@ def filter():
 
 
 def load_data():
-    titanic = pd.read_csv('Titanic-Dataset.csv')
+    titanic = pd.read_csv(r'Titanic-Survival/Titanic-Dataset.csv')
     unessential_columns = ["PassengerId","Name","Ticket",'Cabin']
     data = titanic.drop(columns = unessential_columns)
     data = data.dropna()
