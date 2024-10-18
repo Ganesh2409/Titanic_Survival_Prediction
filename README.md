@@ -1,11 +1,11 @@
 
-# Titanic Survival Prediction App 
+# ⚓ Titanic Survival Prediction App 
 ### Let's See --> [Who Can Make It ](https://ganesh2409-titanic-survival-prediction.streamlit.app/) ![Predict](https://img.shields.io/badge/Streamlit-indigo) 
 
 
 This project is a Streamlit-based web application that predicts whether a passenger would survive the Titanic disaster based on various input features. The app allows users to explore the Titanic dataset and make predictions using a trained machine learning model.
 
-## Project Structure
+##  📁 Project Structure
 
 - **`app.py`**: The main file that runs the Streamlit app. It includes options to either explore the dataset or make survival predictions.
 - **`deploy.py`**: Handles the prediction functionality. Loads the pre-trained machine learning model and processes user inputs to predict the survival of a Titanic passenger.
@@ -16,7 +16,7 @@ This project is a Streamlit-based web application that predicts whether a passen
   - `standard_scaler.pkl`: The StandardScaler used to standardize the features.
   - `classifier.pkl`: The Logistic Regression model trained to predict survival.
 
-## How to Run the App
+## 🛠️ How to Run the App
 
 1. **Clone the Repository**:
    ```bash
@@ -40,7 +40,7 @@ This project is a Streamlit-based web application that predicts whether a passen
    - Navigate to the "Explore" page to visualize the dataset.
    - Use the "Predict" page to input passenger details and predict their survival.
 
-## Dataset
+## 📄 Dataset
 
 The dataset used in this project is the famous Titanic dataset, which contains information about the passengers aboard the Titanic. Key features include:
 
@@ -52,7 +52,7 @@ The dataset used in this project is the famous Titanic dataset, which contains i
 - **Fare**: Fare paid for the ticket
 - **Embarked**: Port of Embarkation (C=Cherbourg; Q=Queenstown; S=Southampton)
 
-## Model
+## 🚀 Model
 
 The model used in this project is a Logistic Regression model trained on the processed Titanic dataset. The pipeline involves:
 
@@ -64,18 +64,16 @@ The model used in this project is a Logistic Regression model trained on the pro
 
 The model achieves a reasonable accuracy on the test set, and the app provides users with real-time predictions based on their input.
 
-## Future Improvements
+##  🖥️ Future Improvements
 
 - Enhance the model's accuracy by experimenting with other algorithms like RandomForest or XGBoost.
 - Incorporate additional data preprocessing steps to handle outliers and imbalanced data.
 - Deploy the app on a cloud platform for wider accessibility.
 
 
-## Contact
-For any questions or feedback, please contact:
+##  🤝 Contact
+For any questions or feedback, please co ntact:
 - **Name** - [Ganesh Chowdhary P]()
 - **Email** - [pinnamaneniganesh24@gmail.com ](mailto:your.pinnamaneniganesh24@gmail.com)
-
-I look forward to hearing from you!
-
-
+  
+Made with ❤️ ( ͡• ͜ʖ ͡• ) Follow for more  ... :) 
