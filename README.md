@@ -20,8 +20,8 @@ This project is a Streamlit-based web application that predicts whether a passen
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Ganesh2409/titanic-survival-prediction.git
-   cd titanic-survival-prediction
+   git clone https://github.com/Ganesh2409/Titanic_Survival_Prediction.git
+   cd Titanic_Survival_Prediction
    ```
 
 2. **Install Dependencies**:
